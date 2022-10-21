@@ -14,17 +14,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => TodosBloc()..add(LoadTodos(
-          todos: Todo.todos
-      )) ,
+      create: (context) => TodosBloc()..add(LoadTodos()) ,
       child: MaterialApp(
         title: 'Bloc-Pattern - Todo',
         debugShowCheckedModeBanner: false,
+
         theme: ThemeData(
+          fontFamily: "yekan",
           primarySwatch: Colors.blue,
           primaryColor: const Color(0xFF000A1F),
           appBarTheme: const AppBarTheme(
-            color: Color(0xFF000A1F)
+            color: Color(0xFF000A1F) ,
           )
         ),
         home: const SplashScreen(),

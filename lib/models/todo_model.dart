@@ -72,7 +72,7 @@ class Todo extends Equatable{
       'id': id,
       'task': task,
       'description': description,
-      'dateTime': dateTime,
+      'dateTime': dateTime.toString() ,
       'isCompleted': isCompleted,
       'isCancelled': isCancelled,
     };
@@ -83,6 +83,7 @@ class Todo extends Equatable{
       id: map['id'] as String,
       task: map['task'] as String,
       description: map['description'] as String,
+      dateTime: DateTime.parse(map['dateTime'] as String),
       isCompleted: map['isCompleted'] as bool,
       isCancelled: map['isCancelled'] as bool,
     );
@@ -95,19 +96,6 @@ class Todo extends Equatable{
     description,
     isCancelled,
     isCompleted
-  ];
-
-  static List<Todo> todos = [
-    Todo(
-        id: "1",
-        task: "Sample ToDo 1",
-        description: "This is a test To Do"
-    ),
-    Todo(
-        id: "2",
-        task: "Sample ToDo 2",
-        description: "This is a test To Do"
-    ),
   ];
 
 }

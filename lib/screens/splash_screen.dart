@@ -1,5 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:todo/screens/home_screen.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -10,10 +11,9 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-
   @override
   void initState() {
-    Future.delayed(const Duration(seconds: 1),(){
+    Future.delayed(const Duration(seconds: 2), () {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
@@ -29,12 +29,18 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children:  const [
-            CircularProgressIndicator() ,
-            SizedBox(height: 10,) ,
-            Text("Todo" , style: TextStyle(
-                fontWeight: FontWeight.bold
-            ),)
+          children: [
+            SizedBox(
+                height: 100,
+                width: 100,
+                child: SvgPicture.asset("asset/logo.svg", )),
+            const SizedBox(
+              height: 25,
+            ),
+            SpinKitThreeBounce(
+              color: Theme.of(context).primaryColor,
+              size: 20.0,
+            )
           ],
         ),
       ),
