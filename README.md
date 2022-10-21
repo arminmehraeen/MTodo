@@ -3,7 +3,7 @@
 A Todo Flutter project with Bloc.
 
 <div>
-  <img src="https://github.com/arminmehraeen/WordTime/blob/main/Photos/logo.png" width="100">
+  <img src="https://github.com/arminmehraeen/MTodo/blob/master/github/logo.svg" width="100">
 </div>
 <div>
   <img src="https://github.com/arminmehraeen/WordTime/blob/main/Photos/img_1.jpeg" width="250">
