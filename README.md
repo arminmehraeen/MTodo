@@ -6,7 +6,7 @@ A Todo Flutter project with Bloc.
   <img src="https://github.com/arminmehraeen/MTodo/blob/master/github/logo.svg" width="100">
 </div>
 <div>
-  <img src="https://github.com/arminmehraeen/WordTime/blob/main/Photos/img_1.jpeg" width="250">
-  <img src="https://github.com/arminmehraeen/WordTime/blob/main/Photos/img_2.jpeg" width="250">
-  <img src="https://github.com/arminmehraeen/WordTime/blob/main/Photos/img_3.jpeg" width="250">
+  <img src="https://github.com/arminmehraeen/MTodo/blob/master/github/img1.svg" width="250">
+  <img src="https://github.com/arminmehraeen/MTodo/blob/master/github/img2.svg" width="250">
+  <img src="https://github.com/arminmehraeen/MTodo/blob/master/github/img3.svg" width="250">
 </div>
