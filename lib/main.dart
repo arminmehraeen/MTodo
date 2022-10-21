@@ -16,9 +16,8 @@ class MyApp extends StatelessWidget {
     return BlocProvider(
       create: (context) => TodosBloc()..add(LoadTodos()) ,
       child: MaterialApp(
-        title: 'Bloc-Pattern - Todo',
+        title: 'MTodo',
         debugShowCheckedModeBanner: false,
-
         theme: ThemeData(
           fontFamily: "yekan",
           primarySwatch: Colors.blue,

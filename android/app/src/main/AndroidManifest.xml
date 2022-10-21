@@ -2,7 +2,7 @@
     package="com.armin_mehraein.todo.todo">
    <application
         android:label="todo"
-        android:name="${applicationName}"
+        android:name="MTodo"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
