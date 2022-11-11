@@ -1,6 +1,6 @@
 # todo
 
-A Todo Flutter project with Bloc.
+A Todo Flutter project with Bloc pattern .
 
 <div>
   <img src="https://github.com/arminmehraeen/MTodo/blob/master/github/logo.svg" width="100">
